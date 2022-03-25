@@ -13,7 +13,7 @@ public class MyList<T> {
 
     public void add(T element) {
         if (sizeAcc >= sizeMax)
-            System.out.println("You can't add another element. Array at it's maximum capacity.");
+            System.out.println("You can't add another element. Array is at it's maximum capacity.");
         else
             arr[sizeAcc++] = element;
     }
